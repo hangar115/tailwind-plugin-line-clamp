@@ -4,7 +4,7 @@
   "description": "Tailwind CSS plugin to add line clamps",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdna/tailwindcss-aspect-ratio.git"
+    "url": "git+https://github.com/hangar115/tailwindcss-line-clamp.git"
   },
   "keywords": [
     "tailwind",
@@ -14,12 +14,8 @@
   ],
   "author": "webdna",
   "license": "MIT",
-  "bugs": "https://github.com/webdna/tailwindcss-aspect-ratio/issues",
-  "homepage": "https://github.com/webdna/tailwindcss-aspect-ratio",
-  "scripts": {
-    "test": "jest",
-    "release": "f(){ release-it $1 && github-release-from-changelog ;};f"
-  },
+  "bugs": "https://github.com/hangar115/tailwindcss-line-clamp/issues",
+  "homepage": "https://github.com/hangar115/tailwindcss-line-clamp",
   "devDependencies": {
     "github-release-from-changelog": "^2.1.1",
     "jest": "^26.1.0",
