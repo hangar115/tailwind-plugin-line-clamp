@@ -1,7 +1,7 @@
 {
-  "name": "tailwindcss-aspect-ratio",
-  "version": "3.0.0",
-  "description": "Tailwind CSS plugin to generate aspect ratio utilities",
+  "name": "tailwindcss-line-clamp",
+  "version": "1.0.0",
+  "description": "Tailwind CSS plugin to add line clamps",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webdna/tailwindcss-aspect-ratio.git"

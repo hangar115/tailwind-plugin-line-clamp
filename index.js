@@ -2,24 +2,21 @@ const plugin = require('tailwindcss/plugin');
 const _ = require('lodash');
 
 module.exports = plugin(function({ theme, variants, e, addUtilities }) {
-  const aspectRatioUtilities = _.fromPairs(
-    _.map(theme('aspectRatio'), (value, modifier) => {
-      const aspectRatio = _.isArray(value) ? value[0] / value[1] : value;
+  const lineClampUtilities = _.fromPairs(
+    _.map(theme('lineClamp'), (value) => {
       return [
-        `.${e(`aspect-ratio-${modifier}`)}`,
+        `.${e(`clamp-${value}`)}`,
         {
-          paddingBottom: aspectRatio == 0 ? '0' : `${1 / aspectRatio * 100}%`,
+            display: -webkit-box,
+            box-orient: vertical,
+            line-clamp: ${value},
+            overflow: hidden,
         },
       ];
     })
   );
-
-  addUtilities(aspectRatioUtilities, variants('aspectRatio'));
 }, {
   theme: {
-    aspectRatio: {},
-  },
-  variants: {
-    aspectRatio: ['responsive'],
+    lineClamp: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   },
 });
