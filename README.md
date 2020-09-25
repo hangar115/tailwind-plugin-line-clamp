@@ -2,7 +2,8 @@
 
 ## Requirements
 
-This plugin adds line clamps with breakpoint support based on the tailwindcss-aspect-ratio plugin by webdna.
+This plugin adds line clamps with breakpoint support based on the tailwindcss-aspect-ratio plugin by `webdna`.  
+Props to `Diego Czul (@luisczul)` for helping me get this working.
 
 ## Installation
 
