@@ -8,7 +8,7 @@ Props to `Diego Czul (@luisczul)` for helping me get this working.
 ## Installation
 
 ```bash
-npm install tailwindcss-line-clamp
+npm install tailwind-plugin-line-clamp
 ```
 
 ```js
@@ -18,7 +18,7 @@ module.exports = {
     lineClamp: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], // defaults to this
   },
   plugins: [
-    require('tailwindcss-line-clamp'),
+    require('tailwind-plugin-line-clamp'),
   ],
 };
 ```

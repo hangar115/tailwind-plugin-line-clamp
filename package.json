@@ -1,10 +1,10 @@
 {
-  "name": "tailwindcss-line-clamp",
+  "name": "tailwind-plugin-line-clamp",
   "version": "1.0.0",
   "description": "Tailwind CSS plugin to add line clamps",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hangar115/tailwindcss-line-clamp.git"
+    "url": "git+https://github.com/hangar115/tailwind-plugin-line-clamp.git"
   },
   "keywords": [
     "tailwind",
@@ -12,10 +12,10 @@
     "plugin",
     "tailwindcss-plugin"
   ],
-  "author": "webdna",
+  "author": "hangar115",
   "license": "MIT",
-  "bugs": "https://github.com/hangar115/tailwindcss-line-clamp/issues",
-  "homepage": "https://github.com/hangar115/tailwindcss-line-clamp",
+  "bugs": "https://github.com/hangar115/tailwind-plugin-line-clamp/issues",
+  "homepage": "https://github.com/hangar115/tailwind-plugin-line-clamp",
   "devDependencies": {
     "github-release-from-changelog": "^2.1.1",
     "jest": "^26.1.0",
