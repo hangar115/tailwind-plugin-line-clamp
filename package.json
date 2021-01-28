@@ -1,6 +1,6 @@
 {
   "name": "tailwind-plugin-line-clamp",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Tailwind CSS plugin to add line clamps",
   "repository": {
     "type": "git",
