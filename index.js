@@ -8,8 +8,8 @@ module.exports = plugin(function({ theme, variants, e, addUtilities, }) {
         `.${e(`clamp-${value}`)}`,
         {
             display: '-webkit-box',
-            'box-orient': 'vertical',
-            'line-clamp': `${value}`,
+            '-webkit-box-orient': 'vertical',
+            '-webkit-line-clamp': `${value}`,
             overflow: 'hidden'
         },
       ];
