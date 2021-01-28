@@ -3,7 +3,7 @@ const _ = require('lodash');
 
 module.exports = plugin(function({ theme, variants, e, addUtilities, }) {
   const lineClampUtilities = _.fromPairs(
-    _.map(theme('clamp'), (value) => {
+    _.map(theme('lineClamp'), (value) => {
       return [
         `.${e(`clamp-${value}`)}`,
         {
