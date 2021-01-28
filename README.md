@@ -15,7 +15,7 @@ npm install tailwind-plugin-line-clamp
 // tailwind.config.js
 module.exports = {
   theme: {
-    lineClamp: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], // defaults to this
+    clamp: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], // defaults to this
   },
   plugins: [
     require('tailwind-plugin-line-clamp'),
@@ -28,29 +28,29 @@ The above configuration would create the following classes, as well as their res
 ```css
 .clamp-1 {
   display: -webkit-box;
-  box-orient: vertical;
-  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
   overflow: hidden;
 }
 
 .xl\:clamp-1 {
   display: -webkit-box;
-  box-orient: vertical;
-  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
   overflow: hidden;
 }
 
 .clamp-2 {
   display: -webkit-box;
-  box-orient: vertical;
-  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   overflow: hidden;
 }
 
 .clamp-3 {
   display: -webkit-box;
-  box-orient: vertical;
-  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
   overflow: hidden;
 }
 
